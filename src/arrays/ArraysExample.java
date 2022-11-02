@@ -1,8 +1,13 @@
+package arrays;
+
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Arrays;
 
-public class HelloWorld {
+/**
+ * Arrays examples, sorting examples
+ */
+public class ArraysExample {
     public static void main(String[] args) {
 
         int[][] array2; //двумерный массив
