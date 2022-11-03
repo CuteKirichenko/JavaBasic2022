@@ -1,6 +1,6 @@
 package modificators;
 
-import oop.classes.modificators.MyClass;
+import oop.modificators.MyClass;
 /**
  * Не наследник MyClass из другого пакета
  */

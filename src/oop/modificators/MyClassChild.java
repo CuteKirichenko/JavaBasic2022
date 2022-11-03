@@ -1,4 +1,4 @@
-package oop.classes.modificators;
+package oop.modificators;
 
 /**
  * Наследник MyClass из того же пакета

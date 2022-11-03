@@ -1,4 +1,4 @@
-package oop.classes.modificators;
+package oop.modificators;
 
 import modificators.MyClassChildOtherPackage;
 
