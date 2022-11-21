@@ -1,4 +1,8 @@
 package oop.interfaces;
 
-public class MyClass {
+public class MyClass implements MyInterface {
+    @Override
+    public void start() {
+
+    }
 }

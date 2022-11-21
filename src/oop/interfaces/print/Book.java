@@ -11,6 +11,16 @@ public class Book implements Printable, Searchable {
 
     @Override
     public void print() {
-        System.out.printf("%s (%s) \n", name, author);
+        System.out.println(name + " (" + author + ")");
     }
+
+
+    int sum(int one, int two) {
+        return one + two;
+    }
+
+    int sum(int one, int two, int three) {
+        return one + two + three;
+    }
+
 }
