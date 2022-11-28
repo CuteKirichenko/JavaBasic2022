@@ -37,15 +37,23 @@ public class Person {
         this.secondName = secondName;
     }
 
+    public boolean isAdult() {
+        return isAdult;
+    }
+
     public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
-        if (age <= 120) {
+        if (age > 0 && age <= 120) {
             this.age = age;
             this.isAdult = this.age >= 18;
         }
+    }
+
+    public String getFio() {
+        return String.format("%s %s %s", this.firstName, this.middleName, this.secondName);
     }
 
     @Override
