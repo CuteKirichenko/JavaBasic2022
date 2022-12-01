@@ -27,6 +27,17 @@ public class PersonTest {
     }
 
     @Test
+    public void setAgeOkAdult18() {
+        //GIVEN
+        int age = 18;
+        //WHEN
+        person.setAge(age);
+        //THEN
+        Assert.assertNotEquals(0, person.getAge());
+        Assert.assertTrue(person.isAdult());
+    }
+
+    @Test
     public void setAgeOkChild() {
         int age = 16;
         person.setAge(age);
@@ -59,7 +70,7 @@ public class PersonTest {
         String actualFio = person.getFio();
 
         Assert.assertNotNull(actualFio);
-        Assert.assertEquals(expectedFio, actualFio);
         Assert.assertEquals(expectedFio.length(), actualFio.length());
+        Assert.assertEquals(expectedFio, actualFio);
     }
 }
