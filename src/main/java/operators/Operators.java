@@ -29,6 +29,8 @@ public class Operators {
         System.out.println(roundedDown);
 
         System.out.println("xxxxxx");
+        System.out.println("xxxxxx");
+        System.out.println("xxxxxx");
 
 
         System.out.println("---------------COMPARE--------------");
