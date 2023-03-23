@@ -18,6 +18,7 @@ public class Operators {
         BigDecimal number2 = BigDecimal.valueOf(1.1);
         System.out.println(number1.subtract(number2));
 
+        System.out.println("lalala");
         System.out.println("----------ROUNDED-----------");
         BigDecimal num = new BigDecimal("3.145");
         BigDecimal roundedHalfUp = num.setScale(2, RoundingMode.HALF_UP);
