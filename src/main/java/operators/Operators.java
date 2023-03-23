@@ -5,15 +5,12 @@ import java.math.RoundingMode;
 
 public class Operators {
     public static void main(String[] args) {
-        System.out.println("little conflict");
         System.out.println("---------BigDecimal----------");
         double d = 2.0 - 1.1;
         System.out.println(d);
 
         BigDecimal numberFromString = new BigDecimal("2.0");
         System.out.println(numberFromString);
-
-        System.out.println("conflict");
 
         BigDecimal number1 = BigDecimal.valueOf(2.0);
         BigDecimal number2 = BigDecimal.valueOf(1.1);
