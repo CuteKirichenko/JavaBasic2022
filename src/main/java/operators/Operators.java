@@ -28,6 +28,9 @@ public class Operators {
         System.out.println(roundedUp);
         System.out.println(roundedDown);
 
+        System.out.println("xxxxxx");
+
+
         System.out.println("---------------COMPARE--------------");
         BigDecimal num1 = new BigDecimal("5.6");
         BigDecimal num2 = new BigDecimal("5.6");
