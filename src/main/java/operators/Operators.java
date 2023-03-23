@@ -12,6 +12,8 @@ public class Operators {
         BigDecimal numberFromString = new BigDecimal("2.0");
         System.out.println(numberFromString);
 
+        System.out.println("conflict");
+
         BigDecimal number1 = BigDecimal.valueOf(2.0);
         BigDecimal number2 = BigDecimal.valueOf(1.1);
         System.out.println(number1.subtract(number2));
